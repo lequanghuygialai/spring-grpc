@@ -1,0 +1,4 @@
+rootProject.name = 'introduction-grpc'
+include 'server-side'
+include 'client-side'
+

@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(path: ':')
+    implementation 'net.devh:grpc-server-spring-boot-starter:2.14.0.RELEASE'
+}
+
+test {
+    useJUnitPlatform()
+}
